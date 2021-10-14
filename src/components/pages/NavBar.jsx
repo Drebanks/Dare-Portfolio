@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Hamburger from "./navs/Hamburger";
-import { Link }
- from "react-router";
+
 function NavBar({icons, change}) {
 
   return (
@@ -10,7 +9,7 @@ function NavBar({icons, change}) {
       <Nav>
         <h1>
           {" "}
-          <span></span> <a href="/"> DareDev </a> <span> </span>{" "}
+          <span></span> <a href="/">PortfoLio</a> <span> </span>{" "}
         </h1>
      <div className="btn-toggle">
      <Hamburger />

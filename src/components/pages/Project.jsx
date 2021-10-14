@@ -3,11 +3,11 @@ import styled from "styled-components";
 import Landify from "../../assets/landify.png";
 // import movieapi from "../../assets/movieapi.jpg";
 // import portfolio from "../../assets/portfolio.png";
-import cm from "../../assets/cm.png";
-import dataware from "../../assets/dataware.png";
+// import cm from "../../assets/cm.png";
+// import dataware from "../../assets/dataware.png";
 import unique from "../../assets/unique.png";
 import tomp from "../../assets/tomp.png";
-import airbnb from "../../assets/airbnb.png";
+// import airbnb from "../../assets/airbnb.png";
 
 function Project() {
   return (
@@ -38,11 +38,11 @@ function Project() {
             <div className="detail-card">
               <h2>LANDING PAGE</h2>
               <p>
-                This page with the signup is built with HTML, CSS, and a little JavaScript.it is quite responsive to mobile
+                This page with the signup is built with HTML and CSS. It is quite responsive to mobile
                 view.
               </p>
             </div>
-            <a href="https://unique-iq-landingpage.vercel.app/">
+            <a href="https://unique-landing-page.vercel.app/">
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>

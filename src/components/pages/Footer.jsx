@@ -22,20 +22,8 @@ function Footer() {
                 color="rgba(67, 172, 247, 0.96)"
               ></box-icon>
             </a>
-            {/* <a
-              href="https://www.youtube.com/channel/UCU_r3L-K7rw0As7J8K2Zt6g"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <box-icon
-                type="logo"
-                name="youtube"
-                size="md"
-                color="rgba(67, 172, 247, 0.96)"
-              ></box-icon>
-            </a> */}
             <a
-              href="https://twitter.com/CurpraCode"
+              href="https://twitter.com/visca124"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -47,7 +35,7 @@ function Footer() {
               ></box-icon>
             </a>
             <a
-              href="https://www.instagram.com/curpra_code/"
+              href="https://www.instagram.com/el_dre_banks/"
               target="_blank"
               rel="noopener noreferrer"
             >

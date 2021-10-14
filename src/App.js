@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
@@ -11,11 +11,11 @@ import styled, { ThemeProvider } from "styled-components";
 import { themes } from "./themes/theme";
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
   const [theme, setTheme] = useState("light");
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 7000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => setLoading(false), 7000);
+  // }, []);
   // useEffect(() => {
   //   Aos.init({ duration: 2000 });
   // }, []);
