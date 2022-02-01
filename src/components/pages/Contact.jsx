@@ -20,7 +20,7 @@ function Contact() {
           <input
             type="text"
             placeholder="Name"
-            id="inpnt"
+            id="input"
             name="name"
             required
           />{" "}
@@ -28,13 +28,13 @@ function Contact() {
           <input
             type="email"
             placeholder="Email"
-            id="inpnt"
+            id="input"
             name="email"
             required
           />{" "}
           <br />
-          <input type="text" placeholder="Subject" id="inpnt" required /> <br />
-          <textarea placeholder="Message" id="inpnt" name="message" required />
+          <input type="text" placeholder="Subject" id="input" required /> <br />
+          <textarea placeholder="Message" id="input" name="message" required />
           <button type="submit" disabled={state.submitting}>
             SUBMIT
           </button>
