@@ -1,13 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import Landify from "../../assets/landify.png";
-// import movieapi from "../../assets/movieapi.jpg";
-// import portfolio from "../../assets/portfolio.png";
-// import cm from "../../assets/cm.png";
-// import dataware from "../../assets/dataware.png";
+import { Link } from "react-router-dom";
 import unique from "../../assets/unique.png";
 import tomp from "../../assets/tomp.png";
-// import airbnb from "../../assets/airbnb.png";
+// import Cap from "../../assets/Cap.JPG";
 
 function Project() {
   return (
@@ -26,9 +23,9 @@ function Project() {
                 is also responsive to mobile view
               </p>
             </div>
-            <a href="https://landify-landingpage.vercel.app/">
+            <Link to="https://landify-landingpage.vercel.app/">
               <button>CLICK TO VIEW</button>
-            </a>
+            </Link>
           </InnerBox>
 
           <InnerBox data-aos="zoom-in">
@@ -42,9 +39,9 @@ function Project() {
                 view.
               </p>
             </div>
-            <a href="https://unique-landing-page.vercel.app/">
+            <Link to="https://unique-landing-page.vercel.app/">
               <button>CLICK TO VIEW</button>
-            </a>
+            </Link>
           </InnerBox>
 
           <InnerBox data-aos="zoom-in">
@@ -57,24 +54,24 @@ function Project() {
                 Tompurse landing page and auth page using React.js. It is also responsive. 
               </p>
             </div>
-            <a href="https://tomspurse-react.vercel.app/">
+            <Link to="https://tomspurse-react.vercel.app/">
               <button>CLICK TO VIEW</button>
-            </a>
+            </Link>
           </InnerBox>
          
         </Box>
         <Box>
         {/* <InnerBox data-aos="zoom-in">
             <div>
-              <img src={airbnb} alt="curtis" />
+              <img src={Cap} alt="spa" />
             </div>
             <div className="detail-card">
               <h2>TIMER</h2>
               <p>
-                This timer is built with Reactjs.
+                This site is built with Reactjs.
               </p>
             </div>
-            <a href="https://timer-alpha-nine.vercel.app/">
+            <a href="https://spaceet.com">
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox> */}

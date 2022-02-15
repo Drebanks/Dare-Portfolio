@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import "boxicons";
-// import typescript from "../../assets/typescript.png"
 
 function Skill() {
   return (
@@ -42,48 +41,6 @@ function Skill() {
             ></box-icon>
           </div>
         </Flex>
-
-        {/* <Flex>
-        <div data-aos="zoom-out">            
-            <box-icon type='logo' name='redux' color="#ad0dfd" size="lg"></box-icon>
-          </div>
-          <div data-aos="zoom-out">            
-          <img
-              src={typescript}
-              alt="typescript"
-              width="40px"
-            />
-          </div>
-          <div data-aos="zoom-out">
-            <box-icon
-              name="nodejs"
-              type="logo"
-              size="lg"
-              color="#218f12"
-            ></box-icon>
-          </div>
-          <div data-aos="zoom-out">
-            <img
-              src="https://emmax.tech/images/tools/express.png"
-              alt="express"
-              width="70px"
-            />
-          </div>
-        </Flex>
-
-        <Flex>
-          <div data-aos="zoom-out">
-            <box-icon
-              name="git"
-              type="logo"
-              size="lg"
-              color="#f55745"
-            ></box-icon>
-          </div>
-          <div data-aos="zoom-out">
-            <box-icon name="github" type="logo" size="lg" color="#0e88f2"></box-icon>           
-          </div>
-        </Flex> */}
       </BoxSet>
     </MainSkill>
   );
