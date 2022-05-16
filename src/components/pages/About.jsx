@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../assets/darenet.docx";
+import Resume from "../../assets/netufo.pdf";
 import styled from "styled-components";
 import about from "../../assets/about.svg";
 import "boxicons";
@@ -43,6 +43,9 @@ const AboutSection = styled.div`
   img {
     width: 40%;
     margin-right: 30px;
+  }
+  button{
+    cursor: pointer;
   }
   @media screen and (max-width: 1024px) {
     margin-left: 70px;

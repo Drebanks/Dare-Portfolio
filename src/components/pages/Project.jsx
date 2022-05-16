@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import Landify from "../../assets/landify.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import unique from "../../assets/unique.png";
 import tomp from "../../assets/tomp.png";
-// import Cap from "../../assets/Cap.JPG";
+import Cap from "../../assets/dar.png";
 
 function Project() {
   return (
@@ -23,9 +23,9 @@ function Project() {
                 is also responsive to mobile view
               </p>
             </div>
-            <Link to="https://landify-landingpage.vercel.app/">
+            <a href="https://landify-landingpage.vercel.app/" target="_blank" rel="noopener noreferrer">
               <button>CLICK TO VIEW</button>
-            </Link>
+            </a>
           </InnerBox>
 
           <InnerBox data-aos="zoom-in">
@@ -39,12 +39,28 @@ function Project() {
                 view.
               </p>
             </div>
-            <Link to="https://unique-landing-page.vercel.app/">
+            <a href="https://unique-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer">
               <button>CLICK TO VIEW</button>
-            </Link>
+            </a>
           </InnerBox>
 
-          <InnerBox data-aos="zoom-in">
+        <InnerBox data-aos="zoom-in">
+            <div>
+              <img src={Cap} alt="spa" />
+            </div>
+            <div className="detail-card">
+              <h2>SPACEET</h2>
+              <p>
+                This service apartment site is built with React.
+              </p>
+            </div>
+            <a href="https://spaceet.com" target="_blank" rel="noopener noreferrer">
+              <button>CLICK TO VIEW</button>
+            </a>
+          </InnerBox>
+         
+        </Box>
+          {/* <InnerBox data-aos="zoom-in">
             <div>
               <img src={tomp} alt="tom" />
             </div>
@@ -57,24 +73,8 @@ function Project() {
             <Link to="https://tomspurse-react.vercel.app/">
               <button>CLICK TO VIEW</button>
             </Link>
-          </InnerBox>
-         
-        </Box>
-        <Box>
-        {/* <InnerBox data-aos="zoom-in">
-            <div>
-              <img src={Cap} alt="spa" />
-            </div>
-            <div className="detail-card">
-              <h2>TIMER</h2>
-              <p>
-                This site is built with Reactjs.
-              </p>
-            </div>
-            <a href="https://spaceet.com">
-              <button>CLICK TO VIEW</button>
-            </a>
           </InnerBox> */}
+        <Box>
         {/* <InnerBox data-aos="zoom-in">
             <div>
               <img src={dataware} alt="curtis" />
@@ -115,6 +115,10 @@ export default Project;
 
 const MainPro = styled.div`
   padding: 100px 0;
+
+  button{
+    cursor: pointer;
+  }
 `;
 const Body = styled.div`
   margin: 0 auto;
