@@ -12,12 +12,11 @@ function About() {
         <AboutDiv>
           <h1>About Me</h1>
           <p data-aos="fade-left">
-            I am a creative Frontend developer and I have always been passionate about everything related to technology
-            and IT, especially the web professions, which made me to change my career from being Farmer to Developer by I also love to
-            code things from scratch, and enjoy bringing ideas to life in the
-            browser, combining the acquisition of new knowledge with independent
-            work on various projects. My hobbies are watching movies and
-            travelling to different places.
+            Hello! I'm Dare, a passionate and creative frontend developer
+            with a love for crafting beautiful and user-friendly web
+            experiences. With 3 years of hands-on experience in web
+            development, I have honed my skills in creating interactive,
+            responsive, and pixel-perfect websites.
           </p>
 
           {/* <i class="bx bxs-like bx-fade-down-hover"></i> */}
@@ -44,7 +43,7 @@ const AboutSection = styled.div`
     width: 40%;
     margin-right: 30px;
   }
-  button{
+  button {
     cursor: pointer;
   }
   @media screen and (max-width: 1024px) {
@@ -53,13 +52,13 @@ const AboutSection = styled.div`
   }
   @media screen and (max-width: 890px) {
     margin-left: 70px;
-    margin-right: 70px; 
+    margin-right: 70px;
     flex-direction: column !important;
     img {
-    width: 75%;
-    margin-right: 0px;
-    margin-bottom:3rem;
-  }
+      width: 75%;
+      margin-right: 0px;
+      margin-bottom: 3rem;
+    }
   }
   @media screen and (max-width: 999px) {
     h1 {

@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import Landify from "../../assets/landify.png";
+import Landify from "../../assets/Hero.jpg";
 // import { Link } from "react-router-dom";
-import unique from "../../assets/unique.png";
-import tomp from "../../assets/tomp.png";
+import unique from "../../assets/numero.png";
+import webapp from "../../assets/webapp.png";
+import todo from "../../assets/todo.jpg";
 import Cap from "../../assets/dar.png";
 
 function Project() {
@@ -17,13 +18,12 @@ function Project() {
               <img src={Landify} alt="page" />
             </div>
             <div className="detail-card">
-              <h2>LANDING PAGE</h2>
+              <h2>Transroute</h2>
               <p> 
-                This page was built with React, it
-                is also responsive to mobile view
+              A platform Connecting the entire payments value chain through a single software platform, providing a single and simplistic control over demanding payment operations.
               </p>
             </div>
-            <a href="https://landify-landingpage.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://transroute.co/" target="_blank" rel="noopener noreferrer">
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
@@ -33,66 +33,63 @@ function Project() {
               <img src={unique} alt="uniq" />
             </div>
             <div className="detail-card">
-              <h2>LANDING PAGE</h2>
+              <h2>Numero Website</h2>
               <p>
-                This page with the signup is built with HTML and CSS. It is quite responsive to mobile
-                view.
+              A banking solution focused at helping entrepreneurs manage their business accounts and finances
               </p>
             </div>
-            <a href="https://unique-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://numero.africa/" target="_blank" rel="noopener noreferrer">
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
-
-        <InnerBox data-aos="zoom-in">
+          <InnerBox data-aos="zoom-in">
+            <div>
+              <img src={webapp} alt="tom" />
+            </div>
+            <div className="detail-card">
+              <h2>Numero WebApp</h2>
+              <p>
+              A banking solution focused at helping entrepreneurs manage their business accounts and finances
+              </p>
+            </div>
+            <a href="https://dash.getnumero.co/" target="_blank" rel="noopener noreferrer">
+              <button>CLICK TO VIEW</button>
+            </a>
+          </InnerBox>
+        </Box>
+        <Box>
+          <InnerBox data-aos="zoom-in">
             <div>
               <img src={Cap} alt="spa" />
             </div>
             <div className="detail-card">
               <h2>SPACEET</h2>
               <p>
-                This service apartment site is built with React.
+              Spaceet provides a seamless user experience for apartment listing and short let bookings.
               </p>
             </div>
             <a href="https://spaceet.com" target="_blank" rel="noopener noreferrer">
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
-         
-        </Box>
-          {/* <InnerBox data-aos="zoom-in">
+        <InnerBox data-aos="zoom-in">
             <div>
-              <img src={tomp} alt="tom" />
+              <img src={todo} alt="dre" />
             </div>
             <div className="detail-card">
-              <h2>TOMPURSE FINTECH</h2>
+              <h2>Todo App</h2>
               <p>
-                Tompurse landing page and auth page using React.js. It is also responsive. 
-              </p>
-            </div>
-            <Link to="https://tomspurse-react.vercel.app/">
-              <button>CLICK TO VIEW</button>
-            </Link>
-          </InnerBox> */}
-        <Box>
-        {/* <InnerBox data-aos="zoom-in">
-            <div>
-              <img src={dataware} alt="curtis" />
-            </div>
-            <div className="detail-card">
-              <h2>Dataware</h2>
-              <p>
-                This is a landing page website  built with
+                This is an App built with
                 HTML, CSS, and JavaScript
               </p>
             </div>
-            <a href="https://dataware.netlify.app/">
+            <a href="https://todo-nu-rust.vercel.app//">
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
-          <InnerBox data-aos="zoom-in">
+          {/* <InnerBox data-aos="zoom-in">
             <div>
-              <img src={cm} alt="curtis" />
+              <img src={webapp} alt="curtis" />
             </div>
             <div className="detail-card">
               <h2>CurpraMovie</h2>

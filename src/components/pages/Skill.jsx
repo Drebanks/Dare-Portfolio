@@ -40,6 +40,14 @@ function Skill() {
               color="#1fd9fa"
             ></box-icon>
           </div>
+          <div data-aos="zoom-out">
+            <box-icon
+              name="typescript"
+              type="logo"
+              size="lg"
+              color="#1fd9fa"
+            ></box-icon>
+          </div>
         </Flex>
       </BoxSet>
     </MainSkill>
