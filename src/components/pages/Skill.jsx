@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import "boxicons";
+// import "boxicons";
+import * as boxicons from 'boxicons';
+
 
 function Skill() {
   return (

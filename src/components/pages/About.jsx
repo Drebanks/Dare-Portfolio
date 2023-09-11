@@ -1,8 +1,10 @@
 import React from "react";
-import Resume from "../../assets/netufo.pdf";
+import Resume from "../../assets/new cv_2.pdf";
 import styled from "styled-components";
 import about from "../../assets/about.svg";
-import "boxicons";
+// import "boxicons";
+import * as boxicons from 'boxicons';
+
 
 function About() {
   return (
@@ -19,8 +21,8 @@ function About() {
             responsive, and pixel-perfect websites.
           </p>
 
-          {/* <i class="bx bxs-like bx-fade-down-hover"></i> */}
-          <a href={Resume} download="darenet">
+          <i class="bx bxs-like bx-fade-down-hover"></i>
+          <a href={Resume} download="resume">
             <button data-aos="fade-up">Download My Resume</button>
           </a>
         </AboutDiv>

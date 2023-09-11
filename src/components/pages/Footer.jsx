@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 // import { ReactComponent as Css } from "../../assets/css-3.svg";
 
+
+
 function Footer() {
   return (
     <FooterPage>
