@@ -87,21 +87,6 @@ function Project() {
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
-          {/* <InnerBox data-aos="zoom-in">
-            <div>
-              <img src={webapp} alt="curtis" />
-            </div>
-            <div className="detail-card">
-              <h2>CurpraMovie</h2>
-              <p>
-                This is full stack web application built with
-                react.js, styled-components, context api, node.js, Mongo db and express
-              </p>
-            </div>
-            <a href="https://movie-webapp.vercel.app/">
-              <button>CLICK TO VIEW</button>
-            </a>
-          </InnerBox> */}
         </Box>
       </Body>
     </MainPro>
@@ -151,8 +136,8 @@ const Box = styled.div`
     flex-flow: wrap;
     align-items: center;
     flex-direction: column;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
   }
 `;
 const InnerBox = styled.div`
