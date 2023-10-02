@@ -38,7 +38,7 @@ function Project() {
               A banking solution focused at helping entrepreneurs manage their business accounts and finances
               </p>
             </div>
-            <a href="https://numero.africa/" target="_blank" rel="noopener noreferrer">
+            <a href="https://getnumero.co/" target="_blank" rel="noopener noreferrer">
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
