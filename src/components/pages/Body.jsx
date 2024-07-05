@@ -2,8 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import dev from "../../assets/dev.svg";
 import ReactRotatingText from "react-rotating-text";
-// import "boxicons";
-import * as boxicons from 'boxicons';
+import "boxicons";
 
 
 function Body() {

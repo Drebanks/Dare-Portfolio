@@ -19,11 +19,17 @@ function Project() {
             </div>
             <div className="detail-card">
               <h2>Transroute</h2>
-              <p> 
-              A platform Connecting the entire payments value chain through a single software platform, providing a single and simplistic control over demanding payment operations.
+              <p>
+                A platform Connecting the entire payments value chain through a
+                single software platform, providing a single and simplistic
+                control over demanding payment operations.
               </p>
             </div>
-            <a href="https://transroute.co/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://transroute-six.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
@@ -35,10 +41,15 @@ function Project() {
             <div className="detail-card">
               <h2>Numero Website</h2>
               <p>
-              A banking solution focused at helping entrepreneurs manage their business accounts and finances
+                A banking solution focused at helping entrepreneurs manage their
+                business accounts and finances
               </p>
             </div>
-            <a href="https://numero.africa/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://numero-com-v3.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
@@ -49,10 +60,15 @@ function Project() {
             <div className="detail-card">
               <h2>Numero WebApp</h2>
               <p>
-              A banking solution focused at helping entrepreneurs manage their business accounts and finances
+                A banking solution focused at helping entrepreneurs manage their
+                business accounts and finances
               </p>
             </div>
-            <a href="https://dash.getnumero.co/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://dash.getnumero.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
@@ -65,25 +81,30 @@ function Project() {
             <div className="detail-card">
               <h2>SPACEET</h2>
               <p>
-              Spaceet provides a seamless user experience for apartment listing and short let bookings.
+                Spaceet provides a seamless user experience for apartment
+                listing and short let bookings.
               </p>
             </div>
-            <a href="https://spaceet.com" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://spaceet.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
-        <InnerBox data-aos="zoom-in">
+          <InnerBox data-aos="zoom-in">
             <div>
               <img src={todo} alt="dre" />
             </div>
             <div className="detail-card">
               <h2>Todo App</h2>
               <p>
-                This is an App built with
-                HTML, CSS, and JavaScript
+                App built using Next JS and Zustand as state management.
+                Responsive on all deveices
               </p>
             </div>
-            <a href="https://todo-nu-rust.vercel.app//">
+            <a href="https://todo-app-dusky-zeta.vercel.app/">
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Home from "./components/Home";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
-import "boxicons";
 import ScrollUp from "./ScrollUp";
 // import Preloader from "./Preloader";
 import styled, { ThemeProvider } from "styled-components";
@@ -19,13 +18,11 @@ function App() {
       <ThemeProvider theme={themes[theme]}>
         <Apps>
           <Router>
-            <Switch>
-              <Route exact path="/">
-                <Home theme={theme} setTheme={setTheme} />
-                <ScrollUp />
-              </Route>
-            </Switch>
+            <Routes>
+              <Route path="/" element={<Home theme={theme} setTheme={setTheme} />}></Route>
+            </Routes>
           </Router>
+          <ScrollUp />
         </Apps>
       </ThemeProvider>
     </>
