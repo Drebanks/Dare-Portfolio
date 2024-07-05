@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../assets/new cv_2.pdf";
+import Resume from "../../assets/new cv_3.pdf";
 import styled from "styled-components";
 import about from "../../assets/about.svg";
 import "boxicons";
