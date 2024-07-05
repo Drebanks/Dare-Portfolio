@@ -42,7 +42,7 @@ function Project() {
               <h2>Numero Website</h2>
               <p>
                 A banking solution focused at helping entrepreneurs manage their
-                business accounts and finances
+                business accounts and finances.
               </p>
             </div>
             <a
